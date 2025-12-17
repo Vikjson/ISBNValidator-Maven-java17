@@ -44,6 +44,7 @@
     </dependency>
   </dependencies>
   <build>
+	  
     <plugins>
     	<plugin>
     	<!-- By default,Maven assumes JDK 1.5. Add maven-compiler-plugin to build plugins, in order to tell maven to use 1.8. -->
@@ -69,9 +70,11 @@
             <configuration>
                 <archive>
                     <manifest>
+						
                         <mainClass>
                             se.yrgo.isbntools.BookManager
                         </mainClass>
+						
                     </manifest>
                 </archive>
             </configuration>
